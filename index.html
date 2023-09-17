@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="Header">
+        <div class="Header__Logo">CSS grid practice</div>
+        <div class="Header__Shortcuts">
+            <a href="../card/index.html" class="Header__Botton">Card</ax >
+            <a href="../cards/index.html" class="Header__Botton">Cards</a>
+            <a href="../formulary/index.html" class="Header__Botton_Active">Formulary</a>
+            <a href="../gallery/index.html" class="Header__Botton">Gallery</a>
+            <a href="../calendar/index.html" class="Header__Botton">Calendar</a>
+        </div>
+    </header>
+    <main class="Main">
+        <div class="Main__Box">
+            <img src="illustration.svg" alt="imagen" class="Main__Image">
+        </div>
+        <div class="Main__Formulary">
+            <h1 class="Main__Title"><span class="Main__Title--Mayus">Con</span>tact us</h1>
+            <form action="#" method="post">
+                <input class="Main__Format" type="text"  name="name" placeholder="Enter your name:" required><br>
+                <input class="Main__Format" type="email" name="correo" placeholder="Enter your email:"><br>
+                <textarea  class="Main__Format--Text" name="mensaje" rows="4" placeholder="Message..." required></textarea><br>     
+                <input class="Main__Botton" type="submit" value="Send">
+            </form>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
